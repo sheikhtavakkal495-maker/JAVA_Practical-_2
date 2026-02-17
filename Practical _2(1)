@@ -1,27 +1,30 @@
-import java.util.Scanner;
+public class maindemo{
 
-class Student {
-    String name;
-    int marks;
+public static void main(String[] args) {
 
-    void acceptDetails() {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter student name: ");
-        name = sc.nextLine();
-        System.out.print("Enter marks: ");
-        marks = sc.nextInt();
-    }
+Addition obj = new Addition();
 
-    void displayDetails() {
-        System.out.println("Student Name: " + name);
-        System.out.println("Marks: " + marks);
-    }
+YCCE college new YCCE();
+CTechDept dept new CTechDept();
+obj.addNumbers();
+System.out.println(" ");
+
+college.showCollege();
+
+System.out.println("----");
+
+dept.showDept();
 }
+class Addition { 2 usages
 
-class StudentDemo {
-    public static void main(String[] args) {
-        Student s = new Student();
-        s.acceptDetails();
-        s.displayDetails();
-    }
+int a = 10; 1 usage
+
+int b 20; Tusage
+void addNumbers() { 1 usage
+
+int sumab;
+
+System.out.println("Sum of two numbers: " + sum);
+class YCCE 2 usages
+
 }
